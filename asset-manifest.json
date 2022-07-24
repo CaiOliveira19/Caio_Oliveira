@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Caio_Oliveira/static/css/main.e5f66579.css",
+    "main.js": "/Caio_Oliveira/static/js/main.b331bf35.js",
+    "static/js/787.3b6844d0.chunk.js": "/Caio_Oliveira/static/js/787.3b6844d0.chunk.js",
+    "static/media/l2.png": "/Caio_Oliveira/static/media/l2.bb54768599afcc3b6235.png",
+    "static/media/Port.png": "/Caio_Oliveira/static/media/Port.5f80ed11f159911c636a.png",
+    "static/media/wolf.png": "/Caio_Oliveira/static/media/wolf.1ca33a717a5191599fae.png",
+    "static/media/pow.png": "/Caio_Oliveira/static/media/pow.2b6ced01d02c35e978ad.png",
+    "static/media/tattoo.jpg": "/Caio_Oliveira/static/media/tattoo.3afd3185998f057bffe4.jpg",
+    "static/media/home.png": "/Caio_Oliveira/static/media/home.842a1b7b6eb74ec1e339.png",
+    "static/media/galeria.jpg": "/Caio_Oliveira/static/media/galeria.be814ed16f2792286ecc.jpg",
+    "static/media/hq.jpg": "/Caio_Oliveira/static/media/hq.8680b8f91c2df42be7c5.jpg",
+    "static/media/caio.jpg": "/Caio_Oliveira/static/media/caio.cc78ae8823d631826560.jpg",
+    "static/media/instagran.png": "/Caio_Oliveira/static/media/instagran.e1508bba98986df311e1.png",
+    "static/media/bee.png": "/Caio_Oliveira/static/media/bee.25b770fc461b529e1d00.png",
+    "static/media/pingu.png": "/Caio_Oliveira/static/media/pingu.af81038b70e7f6b6d2c5.png",
+    "static/media/cep.png": "/Caio_Oliveira/static/media/cep.2f53a83b7aafffbbfd92.png",
+    "static/media/sword.jpg": "/Caio_Oliveira/static/media/sword.340eb56bc3eb0a9e6d7e.jpg",
+    "static/media/pikachu.webp": "/Caio_Oliveira/static/media/pikachu.638f8d5df1d1f589fe72.webp",
+    "static/media/finance.png": "/Caio_Oliveira/static/media/finance.f9ee52527567d546933f.png",
+    "index.html": "/Caio_Oliveira/index.html",
+    "main.e5f66579.css.map": "/Caio_Oliveira/static/css/main.e5f66579.css.map",
+    "main.b331bf35.js.map": "/Caio_Oliveira/static/js/main.b331bf35.js.map",
+    "787.3b6844d0.chunk.js.map": "/Caio_Oliveira/static/js/787.3b6844d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5f66579.css",
+    "static/js/main.b331bf35.js"
+  ]
+}
