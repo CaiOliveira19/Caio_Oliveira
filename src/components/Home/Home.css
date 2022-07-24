@@ -1,0 +1,203 @@
+#Home{
+    width: 100%;
+    height: 90vh;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.main{
+    max-width: 1600px;
+    width: 100%;
+    height: 100%;
+    padding-top: 8vh;
+    background-image: url(../media/home.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin-left: 70px;
+    margin-top: 20vh;
+}
+
+.txt_main{
+    width: 100%;
+    height: 45%;
+
+}
+
+.txt_main h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+
+.txt_main h1{
+    font-size: 5.8rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    text-shadow:  3px 3px 0px #FF0099,-3px 1px 0px #00ffff;
+    text-transform: uppercase;
+}
+
+.txt_main a{
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    color: var(--white);
+    -webkit-animation: icon3d 200ms 10;
+    animation: icon3d 200ms 10;
+}
+
+.txt_main a:hover{
+    -webkit-animation: icon3d 200ms infinite;
+    animation: icon3d 200ms infinite;
+}
+
+#Btn_main{
+    width: 450px;
+    height: 70px;
+    flex-direction: row;
+}
+
+.Btn_CV{
+    width: 180px;
+    height: 45px;
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--black);
+    margin-right: 50px;
+    border-radius: 0px;
+    transition: 200ms all ease-in-out;
+    box-shadow: var(--box-shadow);
+}
+
+.Btn_CV:hover{
+    
+    box-shadow: var(--box-hover);
+}
+
+.Btn_main{
+    width: 180px;
+    height: 45px;
+    cursor: pointer;
+    color: var(--white);
+    background-color: transparent;
+    border-radius: 0px;
+    transition: 200ms all ease-in-out;
+    box-shadow: var(--box-shadow);
+}
+
+.Btn_main:hover{
+    box-shadow: var(--box-hover);
+}
+
+.Social{
+    width: 400px;
+    height: 70px;
+    margin-top: 30px;
+  }
+  
+  .Social a {
+    font-size: 2rem;
+    -webkit-animation: icons 200ms 10;
+    animation: icons 200ms 10;
+    color: var(--white); 
+  }
+  
+  .Social a :hover{
+    -webkit-animation: icons 200ms infinite;
+    animation: icons 200ms infinite;
+  }
+
+  @keyframes icons {
+    0%,100% {
+      transform: rotate(10deg);
+      color: var(--pink);
+    }
+    25% {
+        transform: rotate(-10deg);
+        color: var(--blue);
+    }
+    50% {
+        transform: rotate(10deg);
+        color: var(--pink);
+    }
+    75% {
+        transform: rotate(-10deg);
+        color: var(--blue);
+    }
+  }
+
+  @media screen and (max-width: 900){
+    .container{
+        width: 100%!important;
+    }
+
+    .animate{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 699px) {
+    .txt_main h1{
+        font-size: 4rem;
+        margin: 30px 0px;
+    }
+
+    .txt_main a{
+        font-size: 8px;
+    }
+
+    .Btn_CV{
+        margin-right: 10px;
+    }
+
+    .Social{
+        width: 100%;
+        height: 70px;
+      }
+    
+  }
+
+  @media screen and (max-width:500px) {
+    .container {
+        margin-left: 0px;
+    }
+
+    .txt_main h1{
+        font-size: 3.5rem;
+        margin: 30px 0px;
+    }
+
+    .txt_main a{
+        font-size: 8px;
+    }
+
+    .Btn_CV{
+        margin-right: 10px;
+    }
+
+    .Social{
+        width: 100%;
+        height: 70px;
+      }
+
+    #Btn_main{
+        width: 300px;
+        margin-left: 10px
+    }
+    
+    .Btn_CV{
+        width: 140px;
+    }
+    
+    .Btn_main{
+        width: 140px;
+    }
+    
+  }
