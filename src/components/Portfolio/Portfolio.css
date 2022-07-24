@@ -1,0 +1,218 @@
+#Portfolio{
+    width: 100%;
+    height: 150vh;
+    background-color: var(--black);
+    overflow: visible;
+}
+
+.container_Port{
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+}
+
+#Portfolio h2{
+    position: absolute;
+    width: 400px;
+    margin-top :-120vh;
+    left: 20%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    color: var(--green);
+}
+
+.contain{
+  width: 90%;
+  margin-top: 100px;
+}
+
+h2{
+  text-align: center;
+}
+
+.cards{
+  width: 80%;
+}
+
+.placa{
+  background: var(--white);
+  box-shadow: var(--box-shadow);
+  width: 100%;
+  height: 18vh;
+  margin-left: 50px;
+  position: relative;
+  display: inline-block;
+  transform: scale(0.80);
+  transition: all 0.4s ease 0s;
+}
+
+.placa:nth-of-type(even) {
+  margin-right: 100px;
+	text-align: right;
+	background: var(--white);
+}
+
+.img {
+	width: 15vmin;
+  height: 15vmin;
+	float: left;
+  margin-top: 1em;
+	margin-right: 1.25em;
+	background: var(--black) ;
+	transform: rotate(-4deg);
+	transition: all 0.4s ease 0s;
+	border-radius: 0.25em;
+  overflow: hidden;
+	margin-left: 2em;
+	padding: 0.5em;
+  overflow: hidden;
+}
+
+.placa:nth-of-type(even) .img {
+	float: right;
+	margin-left: 2em;
+	margin-right: 2em;
+	transform: rotate(4deg);
+}
+
+.img img {
+	width: 100%;
+	border-radius: 0.25em;
+	filter: grayscale(1);
+	background: black;
+}
+
+.placa:hover {
+	transform: scale(0.9);
+	transition: all 0.4s ease 0s;
+	filter: drop-shadow(0px 20px 10px #0008);
+}
+
+.placa:hover .img {
+	padding: 0.1em;
+	transition: all 0.4s ease 0s;
+	transform: rotate(-1deg);
+  box-shadow: var(--box-shadow);
+}
+
+.placa:hover .img img {
+	filter: none;
+	transition: all 0.4s ease 0s;
+}
+
+.descrit {
+	padding-top: 1vmin;
+}
+
+.descrit p {
+	padding: 0 2em;
+  margin-left: 1em;
+  margin-top: 3em;
+	margin-bottom: 1em;
+}
+
+.descrit h3 {
+	background: var(--black);
+	display: inline;
+	transform: rotate(-3deg);
+	position: absolute;
+	margin: 0;
+	left: 15vmin;
+	padding: 0.5em 0.75em;
+	color: var(--white);
+	border-radius: 0.25em;
+	font-size: 1.35em;
+	transform-origin: left bottom;
+}
+
+.placa:nth-of-type(even) h3 {
+	left: inherit;
+	right: 15vmin;
+	transform: rotate(2deg);
+	transform-origin: right bottom;
+	background: var(--black);
+}
+
+.placa:hover h3 {
+	transition: all 0.4s ease 0s;
+	transform: rotate(0deg);
+	background: var(--black);
+}
+
+.descrit p a {
+	display: inline-block;
+	margin: 0.5em 0 0 0;
+	background: var(--black);
+	color: var(--white);
+	padding: 0.1em 0.5em 0.35em;
+	border-radius: 0.5em;
+	transition: all 0.4s ease 0s;
+}
+.descrit p a:hover {
+	transition: all 0.4s ease 0s;
+	color: var(--black);
+	background: var(--white);
+	font-weight: bold;
+}
+
+.descrit p a img {
+	float: left;
+	width: 22px;
+	filter: invert(1);
+	border-radius: 0.15em;
+	padding: 2px;
+	background: var(--white);
+	margin-right: 2px;
+}
+
+@media screen and ( max-width:900px ) {
+	#Portfolio{
+		height: auto;
+	}
+
+	#Portfolio h2{
+		position: absolute;
+		width: 400px;
+		margin-top :-240vh;
+		left: 20%;
+		font-family: 'Press Start 2P', cursive;
+		font-size: 1rem;
+		color: var(--green);
+	}
+	
+
+    .placa{
+        height: 35vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img{
+		margin-top: 0em;
+		width: 20vmin;
+  		height: 20vmin;
+	}
+}
+
+@media screen and ( max-width:500px ) {
+
+	#Portfolio h2{
+		width: 350px;
+		margin-top :-240vh;
+		left: 0%;
+	}
+	
+
+    .placa{
+        height: 38vh;
+	}
+
+	.contain{
+		width: 90%;
+		margin-top: 200px;
+	  }
+}
+
+
