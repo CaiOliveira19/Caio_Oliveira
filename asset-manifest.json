@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Caio_Oliveira/static/css/main.6fde069a.css",
-    "main.js": "/Caio_Oliveira/static/js/main.b331bf35.js",
+    "main.css": "/Caio_Oliveira/static/css/main.955233db.css",
+    "main.js": "/Caio_Oliveira/static/js/main.f97b3605.js",
     "static/js/787.3b6844d0.chunk.js": "/Caio_Oliveira/static/js/787.3b6844d0.chunk.js",
     "static/media/l2.png": "/Caio_Oliveira/static/media/l2.bb54768599afcc3b6235.png",
     "static/media/Port.png": "/Caio_Oliveira/static/media/Port.5f80ed11f159911c636a.png",
@@ -20,12 +20,12 @@
     "static/media/pikachu.webp": "/Caio_Oliveira/static/media/pikachu.638f8d5df1d1f589fe72.webp",
     "static/media/finance.png": "/Caio_Oliveira/static/media/finance.f9ee52527567d546933f.png",
     "index.html": "/Caio_Oliveira/index.html",
-    "main.6fde069a.css.map": "/Caio_Oliveira/static/css/main.6fde069a.css.map",
-    "main.b331bf35.js.map": "/Caio_Oliveira/static/js/main.b331bf35.js.map",
+    "main.955233db.css.map": "/Caio_Oliveira/static/css/main.955233db.css.map",
+    "main.f97b3605.js.map": "/Caio_Oliveira/static/js/main.f97b3605.js.map",
     "787.3b6844d0.chunk.js.map": "/Caio_Oliveira/static/js/787.3b6844d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fde069a.css",
-    "static/js/main.b331bf35.js"
+    "static/css/main.955233db.css",
+    "static/js/main.f97b3605.js"
   ]
 }
